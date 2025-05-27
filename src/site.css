@@ -1,0 +1,82 @@
+#intro-container {
+    height: fit-content;
+    background-color: black !important;
+    padding: 25px;
+}
+
+#intro-container h1 {
+    color: darkgrey !important;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#intro-body-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: darkgray !important;
+    padding: 25px;
+}
+
+#intro-body-container video {
+    margin-left: 25px;
+}
+
+#inquiry-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 25px;
+    text-decoration-line: underline;
+}
+
+#body-container1 {
+    height: 300px;
+    padding: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#body-container1 p {
+    padding: 25px;
+    padding-left: 25px;
+    padding-bottom: 250px;
+}
+
+#body-container1 img {
+    float: left;
+    padding-right: 50px; 
+}
+
+#body-container2 {
+    height: 300px;
+    padding: 200px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+#body-container2 p {
+    padding: 25px;
+}
+
+#body-container2 img {
+    float: right;
+    padding-left: 25px; 
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 25px;
+    padding-top: 300px;
+}
